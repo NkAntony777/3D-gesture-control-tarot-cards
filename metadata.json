@@ -1,0 +1,7 @@
+{
+  "name": "Astral Tarot Sanctum",
+  "description": "A mystical, gesture-controlled 3D Tarot experience featuring glass-like cards, dynamic lighting, and fluid particle formations in a twilight magical practice room.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
