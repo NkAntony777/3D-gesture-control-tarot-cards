@@ -19,7 +19,7 @@ const GestureController: React.FC<GestureControllerProps> = ({
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const recognizerRef = useRef<GestureRecognizer | null>(null);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   const lastGestureTime = useRef<number>(0);
   const lastGesture = useRef<string>('None');
   
